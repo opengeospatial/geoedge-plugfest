@@ -1,0 +1,22 @@
+[[WFS]]
+== WFS
+
+=== Complex Queries
+
+
+Some queries seem difficult to execute. Several clients reported that Query 10 can't be executed:
+
+  Query 10: Find the administrative subdivision that contains the building “Cuerpo de Bomberos de Orocovis”
+
+The process might involve a 2 step process:
+
+  Select the layer
+  Run a query inside that layer: select * from BUILDING_P WHERE ZI005_FNA="Cuerpo de Bomberos de Orocovis";
+
+image::images/q10-2steps.png[]
+
+  
+
+Related issue:
+
+* https://github.com/opengeospatial/geoedge-plugfest/issues/88
