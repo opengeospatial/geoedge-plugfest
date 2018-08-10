@@ -1,11 +1,16 @@
 [[Overview]]
 == Overview
 
-Participants provided geoPacjages, WFS and WMS from vector and raster data.
+This Plugfest, co-sponsored by Army Geospatial Center and the National Geospatial-Intelligence Agency (NGA/CIO&T), will bring together technology implementers and data providers to advance the interoperability of geospatial products and services based on community profiles. The Plugfest will assist tool enhancement and provide guidance to improve the delivery of enterprise geospatial data to end users.
 
+Examples of how end user communities will benefit are:
 
-=== A WMS with vector data
+- First responders, relief workers and fire fighters preparing for and operating in austere network environments.
+- Emergency planners and managers supporting hurricane, wildfire, and earthquake preparedness,  relief/response activities and damage assessment.
+- Soldiers/warfighters during planning and executing operations specifically in disconnected, intermittent, and limited network environments.
 
-The following image presents an image from a WMS constructed with vector data and the satellite images
+The geospatial communities supporting defense, emergency response, and intelligence rely on geospatial data and open standards to accomplish their mission. To make sharing of data meet their specific needs, they used profiles. Profiles provide strict implementation guidance to ensure interoperability of geospatial systems in these highly specialized and demanding environments. Non-compliance to open standards profiles prohibits mission critical operations from executing effectively and efficiently.
 
-image::images/raster-vector-gpk.png[raster-vector-gpk]
+Additionally, members of the IC, DoD, non-DoD/IC Federal agency members of the NSG, international partners, state/local municipalities, and Native American tribal organizations that are responsible for the operation, acquisition and/or development of systems and applications which collect, procure, produce, serve, exchange, or use GEOINT data are mandated to comply NSG implementation standards (NSGM 3202). The support of these profiles affect government acquisition decisions to ensure that all systems within the government can communicate appropriately. [From GEOINT Functional Manager Standards Assessment (GFMSA) Program Manual, NSGM 3202, June 2016]
+
+A plugfest, an initiative of the OGC Innovation Program [http://www.opengeospatial.org/ogc/programs/ip] provides the right venue for sponsors and technology implementers to come together in a collaborative agile process to solve geospatial challenges. A plugfest provides the scenarios and testing environment to advance implementation of profiles in commercial and open source software products. A plugfest allows organizations to test and validate that their software products can interoperate with other products implementing the same standards.

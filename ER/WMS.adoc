@@ -1,7 +1,7 @@
-[[WMS-Recommendations]]
-== WMS Recommendations
+[[WMS]]
+=== WMS
 
-=== Axis Order
+==== Axis Order
 
 Data providers should treat properly urn:ogc:def:crs:epsg::4326 (or EPSG:4326) depending on the specification they are implementing.  EPSG:4326 AXIS order is YX. Here is the guideline:
 

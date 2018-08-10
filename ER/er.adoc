@@ -63,7 +63,7 @@
 // Proposed working group for review (e.g. Architecture DWG, WCS SWG)
 // *****************************************************************************
 
-:workingGroup: Security DWG
+:workingGroup: Defense and Intelligence DWG
 
 // *****************************************************************************
 // End of Editor's front-matter elements.
@@ -133,7 +133,7 @@ include::4-overview.adoc[]
 // Editors organize included-file inputs as appropriate starting here.
 // *****************************************************************************
 
-include::5-wms-results.adoc[]
+include::7-results.adoc[]
 
 // you may add any number of chapters as required here
 
@@ -143,9 +143,9 @@ include::5-wms-results.adoc[]
 
 include::annex-a.adoc[]
 
-include::annex-b.adoc[]
 
-include::annex-c.adoc[]
+
+
 
 // *****************************************************************************
 // Revision History should be the last annex before the Bibliography.

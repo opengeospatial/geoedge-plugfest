@@ -1,7 +1,7 @@
 [[WFS]]
-== WFS
+=== WFS
 
-=== Complex Queries
+==== Complex Queries
 
 
 Some queries seem difficult to execute. Several clients reported that Query 10 can't be executed:
@@ -15,7 +15,7 @@ The process might involve a 2 step process:
 
 image::images/q10-2steps.png[]
 
-  
+
 
 Related issue:
 

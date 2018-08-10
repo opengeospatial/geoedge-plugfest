@@ -5,4 +5,10 @@ The following normative documents are referenced in this document.
 
 .NOTE: 	Only normative standards are referenced here, e.g. OGC, ISO or other SDO standards. All other references are listed in the bibliography. Example:
 
-* https://portal.opengeospatial.org/files/?artifact_id=38867&version=2[OGC 06-121r9, OGC® Web Services Common Standard]
+* NSG GeoPackage 2.1 (raster and vector data), based on the OGC GeoPakage 1.1 standard: https://nsgreg.nga.mil/doc/view?i=4379
+* NSG WMS 1.0 (raster data), based on the OGC WMS 1.3 standard:
+https://nsgreg.nga.mil/doc/view?i=4209&month=11&day=13&year=2017
+* NSG WMTS 1.1 (raster data), based on the OGC WMS 1.0 standard:
+https://nsgreg.nga.mil/doc/view?i=4448
+* NSG WFS 1.0 (vector data), based on the OGC WFS 2.0 standard:
+https://nsgreg.nga.mil/doc/view?i=4388&month=11&day=17&year=2017

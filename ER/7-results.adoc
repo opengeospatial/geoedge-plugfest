@@ -1,0 +1,11 @@
+[[Results]]
+== Results and Recommendations
+
+include::WMS.adoc[]
+
+include::WFS.adoc[]
+
+
+include::WMTS.adoc[]
+
+include::geopackage.adoc[]

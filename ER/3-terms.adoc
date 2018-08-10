@@ -15,9 +15,5 @@ For the purposes of this report, the definitions specified in Clause 4 of the OW
 
 .NOTE: The abbreviated terms clause gives a list of the abbreviated terms and the symbols necessary for understanding this document. All symbols should be listed in alphabetical order. Some more frequently used abbreviated terms are provided below as examples.
 
-* COM	Component Object Model
-* CORBA	Common Object Request Broker Architecture
-* COTS	Commercial Off The Shelf
-* DCE	Distributed Computing Environment
-* DCOM	Distributed Component Object Model
-* IDL	Interface Definition Language
+* CFP	Call for Participation
+* NSG ...
