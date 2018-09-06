@@ -1,10 +1,26 @@
 [[Results]]
 == Results and Recommendations
 
+=== Selected Screenshots
+Following are some examples provide by the participants
+
+image::images/ClientA-gpk-apollo-raster-Q1.JPG[title="Full extent raster data from GeoPackage with Client A and GeoPackage Vector Apollo"]
+
+image::images/ClientA-wms-mercury-Q1.jpg[title="Full extent raster data from WMS with Client A and WMS Mercury"]
+
+image::images/ClientL-wms-mercury-Q1.jpg[title="Full extent raster data from WMS with Client L and WMS Mercury"]
+
+image::images/ClientH-wms-mercury-Q4.png[title="1:25000 extent raster data from WMS with Client H and WMS Mercury"]
+
+image::images/ClientG-wms-mercury-Q4.jpg[title="~1:25000 extent raster data from WMS with Client G and WMS Mercury"]
+
+image::images/ClientG-wms-mars-vector-Q4.png[title="Vector and Raster data from WMS Mars by Client G"]
+
+image::images/raster-vector-gpk.png[title="Client showing both GeoPackage vector and raster data"]
+
 include::WMS.adoc[]
 
 include::WFS.adoc[]
-
 
 include::WMTS.adoc[]
 

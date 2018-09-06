@@ -20,3 +20,9 @@ image::images/q10-2steps.png[]
 Related issue:
 
 * https://github.com/opengeospatial/geoedge-plugfest/issues/88
+
+==== Interacting with different versions WFS
+
+Some servers support multiple version of WFS, this will enable clients to get the data in different ways
+
+TODO:add information from Client J report  WFS Janus Final

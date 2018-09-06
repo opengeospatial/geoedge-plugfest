@@ -90,6 +90,7 @@
 // set media to output format print or screen for pdf export
 :media: print
 :bibtex-file: resources/bibtex-file.bib
+:header_recto_center_content: {title} - {docReference}
 
 = {title}
 
@@ -125,23 +126,21 @@ include::1-summary.adoc[]
 
 include::2-references.adoc[]
 
-include::3-terms.adoc[]
+// include::3-terms.adoc[]
 
 include::4-overview.adoc[]
 
-// *****************************************************************************
-// Editors organize included-file inputs as appropriate starting here.
-// *****************************************************************************
+include::5-plugfest-description.adoc[]
 
 include::7-results.adoc[]
 
-// you may add any number of chapters as required here
+include::7.5-Test Issues.adoc[]
 
-// *****************************************************************************
-// Editors add or remove annexes as necessary.
-// *****************************************************************************
+include::8-Applications.adoc[]
 
-include::annex-a.adoc[]
+include::9-Initiative Feedback.adoc[]
+
+//include::annex-a.adoc[]
 
 
 
@@ -153,8 +152,6 @@ include::annex-a.adoc[]
 // *****************************************************************************
 
 include::annex-history.adoc[]
-
-include::annex-bibliography.adoc[]
 
 // *****************************************************************************
 // Editors please proceed to edit the content of 2-references.adoc[],

@@ -1,0 +1,271 @@
+[[PlugfestDescription]]
+== Plugfest Description
+
+=== Goal
+
+The goal was to increase interoperability of information system using community profiles. The Plugfest assisted on tool enhancement and provided guidance to improve the delivery of enterprise geospatial data to end users.
+
+=== Profiles
+
+The profiles used in the initiative were:
+
+- NSG GeoPackage 2.1 (raster and vector data), based on the OGC GeoPakage 1.1 standard: https://nsgreg.nga.mil/doc/view?i=4379
+- NSG WMS 1.0 (raster data), based on the OGC WMS 1.3 standard: https://nsgreg.nga.mil/doc/view?i=4209&month=11&day=13&year=2017
+- NSG WMTS 1.1 (raster data), based on the OGC WMS 1.0 standard: https://nsgreg.nga.mil/doc/view?i=4448
+- NSG WFS 1.0 (vector data), based on the OGC WFS 2.0 standard: https://nsgreg.nga.mil/doc/view?i=4388&month=11&day=17&year=2017
+
+
+=== Plugfest Participation Roles
+
+The participants in the plugfest took the following roles:
+
+* *Data Providers* were organizations that provided data sources that can were tested by other participants either serving it via OGC services or opening in a client.
+* *Service Providers* were organizations that produced services for clients to access.
+* *Client Providers* were organizations that provided clients that consumed GeoPackage data and services to be used for a specific purpose.
+
+=== Sprints
+
+Sprints happened virtually allowing participants around the world to participate and to minimize costs related to travel. Each sprint lasted for 1 week. During the sprint week participants were available to respond to inquires posted by other participants. In the sprint time clients performed a set of operations following a scenario and  documented their success and failures.
+
+Two sprints were planned on this plugfest.
+
+**Sprint 1**  tested existing commercial and/or open source products against the scenarios. A limited (not for public dissemination) report on Sprint 1 findings, not revealing vendor information, was shared with the Sponsors and relevant OGC Standards Working Groups. The findings (need for improvement in data structure, servers and clients) was  properly documented.
+
+**Sprint 2**  Occurred 3 months after the Sprint 1. It repeated the test performed in Sprint 1. Participants had  three months to improve their software to better create the GeoPackage files and improve their services and clients based on the feedback from Sprint 1.
+
+
+=== Schedule
+
+* March 6 - Participants kickoff (Pre-sprint clarification open to registered participants)
+* March 30 - Update scenarios
+* April 16 - Information about Data and Servers is provided to OGC
+* April 20 - Data and Servers ready for Sprint 1
+* April 23-27 - Sprint 1 clients testing
+* April 30-May 11 - Compilation of results by OGC
+* April 30-July 16 - Discussions in GitHub issue tracker
+* July 16 - Information about Data and Servers is provided to OGC
+* July 20 - Data and Servers ready for Sprint 2 (Improved services based on feedback from Sprint 1)
+* July 23-Aug 2 - Sprint 2 clients testing
+* September 9 - Draft report
+* September 28 - Report submission to OGC TC for public release approval
+
+=== Data
+
+Two types of data were used in the initiative: *Vector data* will be used to create, publish and ingest GeoPackage files as well as to publish to and ingest data from WFS servers. *Raster data* will be used to exercise WMS and WMTS servers. Both Vector and Raster data were based on NSG Profiles.
+
+==== Vector Data
+Vector data used in the plugfest was based on the Ground-Warfighter Geospatial Data Model (GGDM 3.0), which is based on the [NSG Application Schema (NAS) version 7](https://nsgreg.nga.mil/doc/view?i=81104&month=2&day=9&year=2016). Various files were created following this model to be used by participants to create GeoPackage or vector files to be served via a WFS.
+
+The NAS Model Entity Catalog provided a set of features, attributes and enumeration values to be used when encoding vector information. It was provided as an https://portal.opengeospatial.org/files/?artifact_id=77705[Excel File]. It was used by participants to understand better the feature types of the data.
+
+The data region was based on Puerto Rico. The datasets contained the following layers:
+* USGS Puerto Rico data for roads and trails, airports, rivers, selected buildings, built-up areas, and some surface areas including runways, counties, a forest, cemeteries and conservation areas.
+* US Transportation Data from which Heliport and Water Aerodrome points pulled from airport data; ports and anchorages pulled from port data.
+* US Maritime data for maritime limits restricted to Puerto Rico area.
+* US Census Bureau coastlines restricted to land/water boundaries for the Puerto Rico area.
+
+The Data was available for download in the following formats:
+
+* https://portal.opengeospatial.org/files/?artifact_id=77716[GML]
+* Composite ArcGIS (10.1+) https://portal.opengeospatial.org/files/?artifact_id=77715[File Geodatabase] in flattened mode with feature datasets and with no subtypes.
+* https://portal.opengeospatial.org/files/?artifact_id=77717[JSON]
+* https://portal.opengeospatial.org/files/?artifact_id=77718[GeoJSON]
+* https://portal.opengeospatial.org/files/?artifact_id=77719[CSV]
+
+The list of features types is as follows:
+
+* ADMINISTRATIVE_SUBDIVISION_S
+* BUILDING_P
+* BUILT_UP_AREA_P
+* CEMETERY_S
+* CONSERVATION_AREA_S
+* DAM_C
+* DAM_S
+* DATASET_S
+* DOLPHIN_P
+* ENTITY_COLLECTION_METADATA_S
+* FORESHORE_S
+* FOREST_S
+* GAUGING_STATION_P
+* HELIPORT_P
+* INLAND_WATERBODY_S
+* LAND_AERODROME_P
+* LAND_WATER_BOUNDARY_C
+* MARITIME_LIMIT_C
+* MILITARY_INSTALLATION_S
+* NAVIGABLE_CANAL_S
+* PARK_S
+* PIPELINE_C
+* PORT_P
+* REEF_C
+* RIVER_C
+* RIVER_S
+* ROAD_C
+* ROCK_FORMATION_P
+* RUNWAY_S
+* SOIL_SURFACE_REGION_S
+* TRAIL_C
+* TUNNEL_C
+* WATER_AERODROME_P
+* WATER_WELL_P
+
+==== Raster Data
+
+The raster data was based on the https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/overview[Sentinel 2A Multispectral Instrument (MSI)], made available by the European Space Agency (ESA) within the Global Monitoring for Environment and Security (GMES) programme. The true color composites (red, green, blue) from the orthorectified Level-lC products were used to generate map data for WMS, WMTS, and GeoPackage files.
+
+The Sentinel data are freely available through the https://scihub.copernicus.eu[Copernicus Open Access Hub]. The data to be used in the plugfest corresponds to the region of Puerto Rico and the True Color Image (TCI).
+
+The Table below lists the subset Product ID's from the Sentinal 2A mission that were used by the data providers of the plugfest. From each image set, the `*TCI.jp2` image was used to create the output products. Participants used the [Copernicus Hub recommend API script](https://scihub.copernicus.eu/twiki/do/view/SciHubUserGuide/5APIsAndBatchScripting#Download_full_product_from_its_U) to download each dataset.
+
+
+.Sentinel 2 Product IDs
+[options="header"]
+|===
+|Product ID| Unique ID (API access)
+|S2B_MSIL1C_20171209T150709_N0206_R082_T19QFA_20171209T195400|a6a9d67d-fbd5-47be-b5c7-92d680b5028b
+|S2B_MSIL1C_20171209T150709_N0206_R082_T19QGA_20171209T195400|2c6a75a4-7327-45b0-b493-ea9a40982b13
+|S2B_MSIL1C_20171209T150709_N0206_R082_T19QGV_20171209T195400|2590351c-a1ae-4592-9b3d-83358d8b13f1
+|S2B_MSIL1C_20171209T150709_N0206_R082_T19QHA_20171209T195400|87f334c4-1993-409a-bd46-79a58a8ba243
+|S2B_MSIL1C_20171209T150709_N0206_R082_T19QHV_20171209T195400|96c5aee0-68d9-4c11-8182-e78b8adca7c1
+|S2A_MSIL1C_20161219T150712_N0204_R082_T19QFV_20161219T150714|31d6900f-3164-4243-84f8-84d39982a4fe
+|===
+
+After setting up an account, the  unique id can be plug in the URL string to form the link for download. For example:
+https://scihub.copernicus.eu/dhus/odata/v1/Products('a6a9d67d-fbd5-47be-b5c7-92d680b5028b')/$value
+
+After downloading the data the participants were responsible for the merge and tiling of this imagery data as per the NSG specifications for raster data.
+
+=== Data Consumer Testing Reports during Sprints
+
+==== Organizations acting as clients/users
+
+The following organizations acted as clients/users of the plugfest.
+
+[width="70%"]
+[cols="40%,60%"]
+[options="header"]
+
+|====
+| Long Name| Acronym use for file name in *orgName*
+| AGC-ENFIRE  | AGC-ENFIRE
+| Compusult   | Compusult
+| Envitia | Envitia
+| Esri  | Esri
+| GEOINT Support DCGS-A | DCGSA
+| GeoNeo Inc. | GeoNeo
+| Image Matters LLC | ImageMatters
+| Luciad   | Luciad
+| Mission Command-Net Warrior  | MissionCommWarrior
+| Mission Command-SitaWare HeadQuarters | MissionCommHQ
+| Naval Research Laboratory  | NRL
+| SOFWERX  | SOFWERX
+| Visual Awareness Technologies and Consulting Inc | VATC
+|====
+
+==== Data, Services and Templates
+
+The Data and Services were provided by:
+
+- Esri
+- Compusult
+- GeoSolutions
+- NRL
+- Visual Awareness Technologies and Consulting Inc
+
+The name of the sources were anonymized. The links and templates used in Sprint 1 are detailed in the table bellow.
+
+[width="100%"]
+[cols="20%,30%,50%"]
+[options="header"]
+
+|====
+| Source type | Source short name (with link) | Template used to report
+| GeoPackage_Vector | https://esri.box.com/s/q4j00xa8wi98kfhoqa0khzicfbpgy8vl[GeoPackage_Vector_Apollo] | https://portal.opengeospatial.org/files/?artifact_id=78808[GeoEdgePlugfest-S1-GeoPackageVector-sourceName-orgName]
+| GeoPackage_Raster | http://tbd.com[GeoPackage-Raster_Jupiter] | https://portal.opengeospatial.org/files/?artifact_id=[GeoEdgePlugfest-S1-GeoPackageRaster-sourceName-orgName]
+| WMS | https://externaltest.dev.geocloud.com/server/services/PuertoRicoRaster/MapServer/WMSServer?request=GetCapabilities&service=WMS[WMS_Mercury] | https://portal.opengeospatial.org/files/?artifact_id=[GeoEdgePlugfest-S1-WMS-sourceName-orgName]
+| WMS | http://mdms1-devel1.compusult.net/wes/GeopackageWMS/259?request=GetCapabilities[WMS_Mars] | https://portal.opengeospatial.org/files/?artifact_id=[GeoEdgePlugfest-S1-WMS-sourceName-orgName]
+| WMTS | https://externaltest.dev.geocloud.com/server/rest/services/PuertoRicoRaster/MapServer/WMTS/1.0.0/WMTSCapabilities.xml[WMTS_Pluto] | https://portal.opengeospatial.org/files/?artifact_id=[GeoEdgePlugfest-S1-WMTS-sourceName-orgName]
+| WMTS | http://mdms1-devel1.compusult.net//wes/GeopackageWMTS/258/1.0.0/WMTSCapabilities.xml[WMTS_Oberon] | https://portal.opengeospatial.org/files/?artifact_id=[GeoEdgePlugfest-S1-WMTS-sourceName-orgName]
+|====
+
+The name of the sources were anonymized. The links and templates used in Sprint 2 are detailed in the table bellow.
+
+[width="100%"]
+[cols="40%,60%"]
+[options="header"]
+
+|====
+| Source type & Source short name | Template to provide feedback
+| https://portal.opengeospatial.org/files/?artifact_id=80149[GeoPackage_Vector_Apollo] | https://portal.opengeospatial.org/files/?artifact_id=80155[GeoEdgePlugfest-S2-GeoPackageVector-sourceName-orgName.doc]
+| https://hawk.compusult.net/ogc/PR_GGDM_3.0_Profile_File_Geodatabase.gpkg[GeoPackage_Vector_Jupiter] | https://portal.opengeospatial.org/files/?artifact_id=80155[GeoEdgePlugfest-S2-GeoPackageVector-sourceName-orgName.doc]
+| [GeoPackage_Vector_Rigel] | https://portal.opengeospatial.org/files/?artifact_id=80155[GeoEdgePlugfest-S2-GeoPackageVector-sourceName-orgName.doc]
+| https://vatcinc-my.sharepoint.com/:u:/p/gjohnson/EQQH-HBsfjVEjZ8G_7Oh2goBFWtI7nOklduRJYWDraO3Gw?e=nWlA4p[GeoPackage_Vector_Orion] | https://portal.opengeospatial.org/files/?artifact_id=80155[GeoEdgePlugfest-S2-GeoPackageVector-sourceName-orgName.doc]
+| https://portal.opengeospatial.org/files/?artifact_id=80148[GeoPackage-Raster_Apollo] | https://portal.opengeospatial.org/files/?artifact_id=80154[GeoEdgePlugfest-S2-GeoPackageRaster-sourceName-orgName.doc]
+| https://hawk.compusult.net/ogc/sentinel2a_peurto_rico_tci.gpkg[GeoPackage-Raster_Jupiter] | https://portal.opengeospatial.org/files/?artifact_id=80154[GeoEdgePlugfest-S2-GeoPackageRaster-sourceName-orgName.doc]
+| https://vatcinc-my.sharepoint.com/:u:/p/gjohnson/EQQH-HBsfjVEjZ8G_7Oh2goBFWtI7nOklduRJYWDraO3Gw?e=nWlA4p[GeoPackage-Raster_Orion] | https://portal.opengeospatial.org/files/?artifact_id=80154[GeoEdgePlugfest-S2-GeoPackageRaster-sourceName-orgName.doc]
+| https://externaltest.dev.geocloud.com/server/services/PuertoRicoVectorRaster/MapServer/WMSServer[WMS_Mercury] | https://portal.opengeospatial.org/files/?artifact_id=80153[GeoEdgePlugfest-S2-WMS-sourceName-orgName.doc]
+| https://wes-online.compusult.net/wes/GeopackageWMS/665?request=GetCapabilities[WMS_Mars] | https://portal.opengeospatial.org/files/?artifact_id=80153[GeoEdgePlugfest-S2-WMS-sourceName-orgName.doc]
+| https://externaltest.dev.geocloud.com/server/rest/services/PuertoRicoRaster/MapServer/WMTS/1.0.0/WMTSCapabilities.xml[WMTS_Pluto] | https://portal.opengeospatial.org/files/?artifact_id=80152[GeoEdgePlugfest-S2-WMTS-sourceName-orgName.doc]
+| [WMTS_Calypso] | https://portal.opengeospatial.org/files/?artifact_id=80152[GeoEdgePlugfest-S2-WMTS-sourceName-orgName.doc]
+| https://wes-online.compusult.net/wes/GeopackageWMTS/665/1.0.0/WMTSCapabilities.xml[WMTS_Oberon] | https://portal.opengeospatial.org/files/?artifact_id=80152[GeoEdgePlugfest-S2-WMTS-sourceName-orgName.doc]
+| https://externaltest.dev.geocloud.com/server/services/PuertoRicoVector/MapServer/WFSServer?request=GetCapabilities&service=WFS[WFS_Janus] | https://portal.opengeospatial.org/files/?artifact_id=80151[GeoEdgePlugfest-S2-WFS-sourceName-orgName.doc]
+| http://cloudsdi.geo-solutions.it/geoserver/geoedge/ows?request=GetCapabilities&service=WFS[WFS_Neptune] | https://portal.opengeospatial.org/files/?artifact_id=80151[GeoEdgePlugfest-S2-WFS-sourceName-orgName.doc]
+
+|====
+
+
+
+==== Communications
+
+If there were any issues with any test, the questions were logged to the https://github.com/opengeospatial/geoedge-plugfest/issues[issue tracker]. Participants were encouraged to https://help.github.com/articles/watching-and-unwatching-repositories/#watching-a-single-repository[watch] the repository during the sprint so they were notified and were able to provide comments if a question from another participant came up.
+
+=== Templates
+
+Each user (client) had to test a data or server an then answer a set of questions.
+
+==== Vector Questions
+===== Inland water body query
+Find all inland water bodies where the full name starts with 'Lago’ and the highest elevation is greater than 70.
+
+===== Reservoir query
+Find all inland water bodies where the inland water type is reservoir and the area is greater than 0.046.
+
+===== TraillNumber query
+Provide the full names of all trails that have specified domain value attribute containing the string subset: TraillNumber:T300.
+
+===== Linear Rivers query
+Find all linear rivers where the full name ends with 'de la Plata'.
+
+===== Guaynabo query
+Find all built up areas where the height is less than 35, the memorandum is ‘San Juan’, and the World Port Index Identifier is 'Guaynabo'.
+
+===== Firefighting Carretera query
+Find all buildings where the address does not contain Carretera, the feature function is firefighting, and the specified domain value starts with '(Zipcode:006'.
+
+===== S1200 query
+Find all roads where the geography name is 'Pr- 20', and where the feature unique identifier is S1200.
+
+===== Conservation area query
+Find the largest conservation area based on area and report the full name of that conservation area. What is the Full Name? What is the Area? Provide a screenshot.
+
+
+===== ICAO query
+
+Find the ICAO Location Indicator for the heliport located at the Bayamon Rgnl Hospital. What is the Location Indicator? Provide a screenshot.
+
+===== Subdivision query
+Find the administrative subdivision that contains the building “Cuerpo de Bomberos de Orocovis”. What is the Name? Provide a screenshot?
+
+==== Raster Questions
+
+Provide screenshot for the zooms (and scales) specified.
+
+Note: In the below requests, the center point of a designated area is identified. The participant should go to the center point and then zoom to the designated scale and take a screen capture of the resulting image. The screen capture should be bigger (contain) the image returned to ensure that we will be able to compare images returned by different clients.
+
+===== Zoom to full extent of the layer
+
+===== Scale: 1:500,000
+_The extent of the image returned should be centered on the centroid of Puerto Rico, which is approximately this location: EPSG 4326: - 66.66, 18.20 and then zoom to the 1:500,000 scale. If the designated scale is not available, zoom to the closest scale that is available and include that information along with the image.._
+
+===== Scale: 1:20,000
+_The extent of the image returned should be centered on the centroid of Puerto Rico, which is approximately this location: EPSG 4326: - 66.66, 18.20 and then zoom to the 1:20,000 scale. If the designated scale is not available, zoom to the closest scale that is available and include that information along with the image._

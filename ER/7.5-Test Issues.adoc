@@ -1,0 +1,66 @@
+[[TestIssues]]
+== Test Suites Issues and Releases
+
+The test results of Geospatial to the Edge Plugfest identified several bugs or shortcomings in test suites. This section provides a summary of the releases of updated test suites and issues reported as part of this initiative.
+
+== Summary of Releases related to the Plugfest
+
+* https://opengeospatial.github.io/ets-gpkg12-nsg/relnotes.html[GeoPackage 1.2 NSG test suite]
+** Release 0.5 (2018-08-28)
+*** #21: Test NSG_filenameExtension is a duplicate of the test *** filenameExtension
+*** #36: Lack of metadata results in SQLITE ERROR hard failure
+*** #38: Fortify scan reports issues
+*** #37: Geopackage having no Tile data results in SQLITE ERROR
+*** #27: Improve exception message of test *** dataValidity_gpkg_spatial_ref_sys
+*** #30: Test metadataSchemaValidation fails if table gpkg_metadata contains multiple values with at least one not NMIS valid entry
+*** #42: Introduce Dockerfile and Maven Docker plugin
+** Release 0.4 (2018-07-13)
+*** #33: Set GeoPackage 1.2 ETS dependency to version 0.7
+*** #28: Remove duplicated test inherited from ets-gpkg12
+*** #10: No Such Function: ST_MinX
+*** #22: Test “dataValidity_gpkg_tile_matrix” fails if gpkg_tile_matrix contains zoom levels which are not present in data
+*** #12: N S G_CRSdefinitions Test - java.lang.NoClassDefFoundError: org/geotools/util/UnsupportedImplementationException
+*** #18: Clean up ETS
+* https://opengeospatial.github.io/ets-gpkg12/relnotes.html[GeoPackage 1.2 test suite]
+** Release 0.7 (2018-07-13)
+*** Fix #76: Several tests are executed multiple times
+*** Fix #64: Failure due to space in filename
+*** Merge #73: R146 147
+*** Fix #51: Review test requiredSRSReferences
+*** Fix #60: The spatial issue revisited
+*** Merge #69: Adding two samples
+*** Merge #65: Adding a test case with a file with a space in it
+
+
+== Reported Test Issues in Sprint 1
+The following GitHub  issues were created or confirmed during analysis of Sprint 1 results:
+
+* GeoPackage 1.2 NSG test suite
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/10
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/28
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/31
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/27
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/30
+* GeoPackage 1.2  test suite
+** https://github.com/opengeospatial/ets-gpkg12/issues/78
+** https://github.com/opengeospatial/ets-gpkg12/issues/74
+* WMS 1.3 NSG test suite
+** https://github.com/opengeospatial/ets-wms13-nsg/issues/5
+** https://github.com/opengeospatial/ets-wms13-nsg/issues/16
+
+
+=== Reported Tests Issues in Sprint 2
+
+The following GitHub  issues were created or confirmed during analysis of Sprint 2 results:
+
+* GeoPackage 1.2 NSG test suite
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/27
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/30
+* WMS 1.3 NSG test suite
+** https://github.com/opengeospatial/ets-wms13-nsg/issues/5
+** https://github.com/opengeospatial/ets-wms13-nsg/issues/16
+* WMTS 1.0 NSG test suite
+** https://github.com/opengeospatial/ets-wmts10-nsg/issues/43
+* WFS 2.0 (NSG) test suite
+** https://github.com/opengeospatial/ets-wfs20/issues/124
+** https://github.com/opengeospatial/ets-wfs20/issues/125

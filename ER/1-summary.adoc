@@ -1,24 +1,24 @@
 == Summary
-The Geospatial to the Edge Interoperability Plugfest, co-sponsored by Army Geospatial Center and the National Geospatial-Intelligence Agency (NGA/CIO&T) brought together technology implementers and data providers to advance the interoperability of geospatial products and services based on OGC profiles.
+The Geospatial to the Edge Interoperability Plugfest, co-sponsored by Army Geospatial Center and the National Geospatial-Intelligence Agency (NGA/CIO&T) brought together technology implementers and data providers to advance the interoperability of geospatial products and services based on OGC profiles. Servers and data available via GeoPackage, WFS, WMS and WMTS following NSG profiles were exercised and improved in various clients. Compliance Tests were executed and advanced based on feedback from the participants.
 
 
 === Motivation
 The geospatial communities supporting defense, emergency response, and intelligence rely on geospatial data and open standards to accomplish their mission. To make sharing of data meet their specific needs, they used profiles. Profiles provide strict implementation guidance to ensure interoperability of geospatial systems in these highly specialized and demanding environments. Non-compliance to open standards profiles prohibits mission critical operations from executing effectively and efficiently.
 
-A plugfest, an initiative of the OGC Innovation Program [http://www.opengeospatial.org/ogc/programs/ip], provides the right venue for sponsors and technology implementers to come together in a collaborative agile process to solve geospatial challenges. The Plugfest assisted tool enhancement and provided guidance to improve the delivery of enterprise geospatial data to end users. In this initiative, the plugfest was used to bring more than ten data/service producers and clients of data following NSG profiles. It help discovered implementation issues and advance executable test suites.
+A plugfest, an initiative of the OGC Innovation Program [http://www.opengeospatial.org/ogc/programs/ip], provides the right venue for sponsors and technology implementers to come together in a collaborative agile process to solve geospatial challenges. The Plugfest assisted tool enhancement and provided guidance to improve the delivery of enterprise geospatial data to end users. In this initiative, a plugfest was used to bring more than ten data/service producers and clients of data following NSG profiles. It help discovered implementation issues and advance executable test suites.
 
 
 
 === Prior-After Comparison
 
-Before the Plugfest very few implementations were able to interact with NGS profiles. After the plugfest more implementations were available.
+Before the Plugfest very few implementations were able to interact with NGS profiles. This is commonly the case when communities want to restrict a rule from the base standard or want to extend what the base standard offers. After the plugfest more implementations were available implementing the NSG profiles.
 
-The executable test suites were also improved as a results of feedback form the participants.
+The profiles implemented in the plugfest had corresponding executable test suites. These profiles test suited are in beta, meaning that they have not been approved by the OGC Technical Committee.  Feedback related to the executable test suites was provided by the participants and in particular the GeoPackage test was improved during the plugfest.
 
 
 === Recommendations for Future Work
 
-Activities like this plugest should be performed for new profiles allowing participating to come together and tests to be advanced.
+Activities like this plugfest should be performed for new profiles or new standards allowing participants to come together find interoperability issues and advance test suites.
 
 ===	Document contributor contact points
 
@@ -29,7 +29,6 @@ All questions regarding this document should be directed to the editor or the co
 |====================
 |Name |Organization
 |Luis Bermudez | OGC
-|((contributor)) | ((from org))
 |====================
 
 

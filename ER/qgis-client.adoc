@@ -16,5 +16,3 @@ QGIS 2.18 client was used to test data and servers. Instructions about how to qu
 
 
 image::images/qgis-client-filter.png[]
-
-Hello 

@@ -3,7 +3,7 @@
 
 This Plugfest, co-sponsored by Army Geospatial Center and the National Geospatial-Intelligence Agency (NGA/CIO&T), will bring together technology implementers and data providers to advance the interoperability of geospatial products and services based on community profiles. The Plugfest will assist tool enhancement and provide guidance to improve the delivery of enterprise geospatial data to end users.
 
-Examples of how end user communities will benefit are:
+Examples of how end user communities will benefit form this work are:
 
 - First responders, relief workers and fire fighters preparing for and operating in austere network environments.
 - Emergency planners and managers supporting hurricane, wildfire, and earthquake preparedness,  relief/response activities and damage assessment.

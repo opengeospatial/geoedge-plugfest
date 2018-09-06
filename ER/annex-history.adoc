@@ -1,17 +1,10 @@
 [appendix]
 [[RevisionHistory]]
-= Revision History
+== Revision History
 
-[NOTE]
-.Example History (Delete this note).
-===============================================
-replace below entries as needed
-===============================================
-
-.Revision History
-[width="90%",options="header"]
+[width="100%",options="header",cols="1,1,1,1,4"]
 |====================
 |Date |Editor |Release | Primary clauses modified |Descriptions
-|Aug 10 2018 |L Bermudez| .1 |all |initial version
-
+|Aug 10 2018 |L. Bermudez| .1 |all |Initial version
+|Sep 6 2018 |L. Bermudez| .2 |all |Added section test issues, applications and initiative feedback and plugfest description. Formatted document with better numbering.
 |====================

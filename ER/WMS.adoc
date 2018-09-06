@@ -11,3 +11,7 @@ Data providers should treat properly urn:ogc:def:crs:epsg::4326 (or EPSG:4326) d
 Related issue:
 
 * https://github.com/opengeospatial/geoedge-plugfest/issues/15
+
+==== Naming of Layers
+
+To provide a better client interaction layers should be name properly
