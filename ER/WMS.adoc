@@ -14,4 +14,4 @@ Related issue:
 
 ==== Naming of Layers
 
-To provide a better client interaction layers should be name properly
+To provide a better client interaction layers should be named properly.

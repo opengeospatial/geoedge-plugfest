@@ -1,7 +1,7 @@
 [[Overview]]
 == Overview
 
-This Plugfest, co-sponsored by Army Geospatial Center and the National Geospatial-Intelligence Agency (NGA/CIO&T), will bring together technology implementers and data providers to advance the interoperability of geospatial products and services based on community profiles. The Plugfest will assist tool enhancement and provide guidance to improve the delivery of enterprise geospatial data to end users.
+This Plugfest, co-sponsored by Army Geospatial Center and the National Geospatial-Intelligence Agency (NGA/CIO&T), brought together technology implementers and data providers to advance the interoperability of geospatial products and services based on community profiles. The Plugfest assisted on tool enhancement and provided guidance to improve the delivery of enterprise geospatial data to end users.
 
 Examples of how end user communities will benefit form this work are:
 
@@ -13,4 +13,4 @@ The geospatial communities supporting defense, emergency response, and intellige
 
 Additionally, members of the IC, DoD, non-DoD/IC Federal agency members of the NSG, international partners, state/local municipalities, and Native American tribal organizations that are responsible for the operation, acquisition and/or development of systems and applications which collect, procure, produce, serve, exchange, or use GEOINT data are mandated to comply NSG implementation standards (NSGM 3202). The support of these profiles affect government acquisition decisions to ensure that all systems within the government can communicate appropriately. [From GEOINT Functional Manager Standards Assessment (GFMSA) Program Manual, NSGM 3202, June 2016]
 
-A plugfest, an initiative of the OGC Innovation Program [http://www.opengeospatial.org/ogc/programs/ip] provides the right venue for sponsors and technology implementers to come together in a collaborative agile process to solve geospatial challenges. A plugfest provides the scenarios and testing environment to advance implementation of profiles in commercial and open source software products. A plugfest allows organizations to test and validate that their software products can interoperate with other products implementing the same standards.
+A Plugfest, an initiative of the OGC Innovation Program [http://www.opengeospatial.org/ogc/programs/ip] provides the right venue for sponsors and technology implementers to come together in a collaborative agile process to solve geospatial challenges. A Plugfest provides the scenarios and testing environment to advance implementation of profiles in commercial and open source software products. A Plugfest allows organizations to test and validate that their software products can interoperate with other products implementing the same standards.

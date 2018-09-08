@@ -10,8 +10,8 @@ Some queries seem difficult to execute. Several clients reported that Query 10 c
 
 The process might involve a 2 step process:
 
-  Select the layer
-  Run a query inside that layer: select * from BUILDING_P WHERE ZI005_FNA="Cuerpo de Bomberos de Orocovis";
+  1. Select the layer
+  2. Run a query inside that layer: select * from BUILDING_P WHERE ZI005_FNA="Cuerpo de Bomberos de Orocovis";
 
 image::images/q10-2steps.png[]
 
@@ -25,4 +25,4 @@ Related issue:
 
 Some servers support multiple version of WFS, this will enable clients to get the data in different ways
 
-TODO:add information from Client J report  WFS Janus Final
+//TODO:add information from Client J report  WFS Janus Final

@@ -1,8 +1,23 @@
 [[Results]]
 == Results and Recommendations
 
+=== Summary of Experiments
+
+The results of Sprint 1 were summarized in the following table.
+
+image::images/7-results-afe2b.png[Results Sprint 1]
+
+The red marks indicate that the client was not able to interact with the server. Overall most servers were able to communicate with the clients.
+
+For Sprint 2 it was capture if the client was able to perform successfully all the tests with a particular source. The green cells indicate a successful interaction.
+
+image::https://github.com/opengeospatial/geoedge-plugfest/blob/master/ER/images/summary-results-sprint1.png[title="Sprint 1 Results"]
+
+image::images/7-results-503ea.png[title="Sprint 2 Results]
+
+
 === Selected Screenshots
-Following are some examples provide by the participants
+Following are some examples provided by the participants:
 
 image::images/ClientA-gpk-apollo-raster-Q1.JPG[title="Full extent raster data from GeoPackage with Client A and GeoPackage Vector Apollo"]
 

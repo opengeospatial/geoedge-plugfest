@@ -6,5 +6,6 @@
 |====================
 |Date |Editor |Release | Primary clauses modified |Descriptions
 |Aug 10 2018 |L. Bermudez| .1 |all |Initial version
-|Sep 6 2018 |L. Bermudez| .2 |all |Added section test issues, applications and initiative feedback and plugfest description. Formatted document with better numbering.
+|Sep 6 2018 |L. Bermudez| .2 |all |Added section test issues, applications and initiative feedback and Plugfest description. Formatted document with better numbering.
+|Sep 8 2018 |L. Bermudez| .3 |all |Reviewed all the document, cleaned name of organizations acting as servers or clients, and added summary matrices of the sprints.
 |====================
