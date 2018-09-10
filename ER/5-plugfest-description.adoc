@@ -61,6 +61,7 @@ Vector data used in the Plugfest was based on the Ground-Warfighter Geospatial D
 The NAS Model Entity Catalog provides a set of features, attributes and enumeration values to be used when encoding vector information. It was provided as an https://portal.opengeospatial.org/files/?artifact_id=77705[Excel File]. It was used by participants to understand better the feature types (semantics) of the data.
 
 The data region was based on Puerto Rico. The datasets contained the following layers:
+
 * USGS Puerto Rico data for roads and trails, airports, rivers, selected buildings, built-up areas, and some surface areas including runways, counties, a forest, cemeteries and conservation areas.
 * US Transportation Data from which Heliport and Water Aerodrome points pulled from airport data; ports and anchorages pulled from port data.
 * US Maritime data for maritime limits restricted to Puerto Rico area.
