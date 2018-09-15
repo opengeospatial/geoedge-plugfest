@@ -3,7 +3,7 @@
 
 ==== Raster and vector data in one file
 
-The GeoPackage standard and NSG profile permit a user to include both raster and vector data in the same file. One provider combined the GGDM vector data with a patch of aerial imagery at a higher resolution than the supplied Sentinel 2A data and also added an elevation raster dataset. Although their demo exceeded the scope of the prescribed tests, it highlighted the potential for doing useful raster/vector mashups within NSG profile guidelines. This screenshot shows the edge of the aerial imagery patch overlaid on a public basemap. 
+The GeoPackage standard and NSG profile permit a user to include both raster and vector data in the same file. One provider combined the GGDM vector data with a patch of imagery at a higher resolution than the supplied Sentinel 2A data and also added an elevation raster dataset. Although their demo exceeded the scope of the prescribed tests, it highlighted the potential for doing useful raster/vector mashups within NSG profile guidelines. This screenshot shows the edge of the imagery patch overlaid on a public basemap. 
 
 image::images/geop-raster-vector-cut.png[alt]
 
@@ -55,6 +55,6 @@ Related issues:
 
 ==== Mashups containing raster elevation data
 
-Various clients were able to open the file containing both raster and vector data. The GeoPackage contained high resolution aerial images and elevation data in the 2D gridded coverage extension schema. Tile-based, pyramidal, floating-point raster data is a distinguishing feature of GeoPackage.
+Various clients were able to open the file containing both raster and vector data. The GeoPackage contained high resolution images and elevation data in the 2D gridded coverage extension schema. Tile-based, pyramidal, floating-point raster data is a distinguishing feature of GeoPackage.
 
 image::images/gpk-hr-elev.png[]
