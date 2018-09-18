@@ -11,7 +11,7 @@ A Plugfest, an initiative of the OGC Innovation Program [http://www.opengeospati
 
 === Prior-After Comparison
 
-Before the Plugfest very few implementations were able to interact with NGS profiles. This is commonly the case when communities want to restrict a rule from the base standard or want to extend what the base standard offers. The support for these profiles is not commonly a feature that comes packaged in software products. After the Plugfest more implementations were available implementing the NSG profiles.
+Before the Plugfest very few implementations were able to interact with NSG profiles. This is commonly the case when communities want to restrict a rule from the base standard or want to extend what the base standard offers. The support for these profiles is not commonly a feature that comes packaged in software products. After the Plugfest more implementations were available implementing the NSG profiles.
 
 The profiles implemented in the Plugfest had corresponding executable test suites. These profiles test suites were in beta by the end of the initiative, ready to be move forward for public release by the OGC Technical Committee.  Feedback related to the executable test suites was provided by the participants. In particular, the GeoPackage test was improved during the Plugfest.
 
