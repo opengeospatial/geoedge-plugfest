@@ -17,7 +17,7 @@ image::images/7-results-503ea.png[title="Sprint 2 Results]
 === Selected Screenshots
 Following are some examples provided by the participants:
 
-image::images/ClientA-gpk-apollo-raster-Q1.JPG[title="Full extent raster data from GeoPackage with Client A and GeoPackage Vector Apollo"]
+image::images/ClientA-gpk-apollo-raster-Q1.jpg[title="Full extent raster data from GeoPackage with Client A and GeoPackage Vector Apollo"]
 
 image::images/ClientA-wms-mercury-Q1.jpg[title="Full extent raster data from WMS with Client A and WMS Mercury"]
 
