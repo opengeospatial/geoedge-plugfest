@@ -1,9 +1,9 @@
 [[GeoPackage]]
 === GeoPackage Results
 
-==== Raster and vector files in one file
+==== Raster and vector data in one file
 
-The initiative tested the capability of including both raster and vector data in one file. One file size was 5 GB which included high resolution data.
+The GeoPackage standard and NSG profile permit a user to include both raster and vector data in the same file. One provider combined the GGDM vector data with a patch of imagery at a higher resolution than the supplied Sentinel 2A data and also added an elevation raster dataset. Although their demo exceeded the scope of the prescribed tests, it highlighted the potential for doing useful raster/vector mashups within NSG profile guidelines. This screenshot shows the edge of the imagery patch overlaid on a public basemap. 
 
 image::images/geop-raster-vector-cut.png[alt]
 
@@ -53,8 +53,8 @@ Related issues:
 * https://github.com/opengeospatial/geoedge-plugfest/issues/82
 
 
-==== GeoPackage convenience packaging both raster and vector data
+==== Mashups containing raster elevation data
 
-One participant provided a GeoPackage file containing both raster and vector data. Various clients were able to open the file. The GeoPackage contained high resolution satellite images and elevation data in the 2D gridded coverage extension schema. Tile-based, pyramidal, floating-point raster data is a distinguishing feature of GeoPackage.
+Various clients were able to open the file containing both raster and vector data. The GeoPackage contained high resolution images and elevation data in the 2D gridded coverage extension schema. Tile-based, pyramidal, floating-point raster data is a distinguishing feature of GeoPackage.
 
 image::images/gpk-hr-elev.png[]
