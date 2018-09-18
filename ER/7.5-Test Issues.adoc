@@ -1,9 +1,9 @@
 [[TestIssues]]
-== Test Suites Issues and Releases
+== Test suites issues and releases
 
-The test results of Geospatial to the Edge Plugfest identified several bugs or shortcomings in test suites. This section provides a summary of the releases of updated test suites and issues reported as part of this initiative.
+The test results of Plugfest identified several bugs or shortcomings in the test suites. This section provides a summary of the releases of updated test suites and issues reported as part of this initiative.
 
-== Summary of Releases related to the Plugfest
+=== Summary of releases related to the Plugfest
 
 * https://opengeospatial.github.io/ets-gpkg12-nsg/relnotes.html[GeoPackage 1.2 NSG test suite]
 ** Release 0.5 (2018-08-28)
@@ -32,7 +32,7 @@ The test results of Geospatial to the Edge Plugfest identified several bugs or s
 *** Merge #65: Adding a test case with a file with a space in it
 
 
-== Reported Test Issues in Sprint 1
+=== Reported test issues in Sprint 1
 The following GitHub  issues were created or confirmed during analysis of Sprint 1 results:
 
 * GeoPackage 1.2 NSG test suite
@@ -49,7 +49,7 @@ The following GitHub  issues were created or confirmed during analysis of Sprint
 ** https://github.com/opengeospatial/ets-wms13-nsg/issues/16
 
 
-=== Reported Tests Issues in Sprint 2
+=== Reported tests issues in Sprint 2
 
 The following GitHub  issues were created or confirmed during analysis of Sprint 2 results:
 

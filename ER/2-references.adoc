@@ -3,9 +3,7 @@
 
 The following normative documents are referenced in this document.
 
-.NOTE: Only normative standards are referenced here, e.g. OGC, ISO or other SDO standards. All other references are listed in the bibliography. Example:
-
-* NSG GeoPackage 2.1 (raster and vector data), based on the OGC GeoPakage 1.1 standard: https://nsgreg.nga.mil/doc/view?i=4379
+* NSG GeoPackage 2.1 (raster and vector data), based on the OGC GeoPackage 1.1 standard: https://nsgreg.nga.mil/doc/view?i=4379
 * NSG WMS 1.0 (raster data), based on the OGC WMS 1.3 standard:
 https://nsgreg.nga.mil/doc/view?i=4209&month=11&day=13&year=2017
 * NSG WMTS 1.1 (raster data), based on the OGC WMS 1.0 standard:

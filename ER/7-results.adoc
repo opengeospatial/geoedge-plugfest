@@ -1,21 +1,26 @@
 [[Results]]
-== Results and Recommendations
+== Results and recommendations
 
-=== Summary of Experiments
+=== Summary of experiments
 
 The results of Sprint 1 were summarized in the following table.
+[[Sprint1Results]]
+image::images/7-results-afe2b.png[title="Results Sprint 1"]
 
-image::images/7-results-afe2b.png[Results Sprint 1]
+The first row provides the label used to identify each client in an anonymized way. For example: Client E, Client L, etc. In total ten clients were used in the Plugfest.
 
-The red marks indicate that the client was not able to interact with the server. Overall most servers were able to communicate with the clients.
+The first column identifies the sources of data and servers. The contributions were also anonymized. They were sorted in the table by the type of contribution. For example, the Plugfest had 3 WMTS servers: Pluto, Calypso and Oberon.
 
-For Sprint 2 it was capture if the client was able to perform successfully all the tests with a particular source. The green cells indicate a successful interaction.
+The red marks indicate that the client was not able to interact with the server provider. Overall most servers were able to communicate with the clients.
 
-image::images/7-results-503ea.png[title="Sprint 2 Results]
+The results for Sprint 2 are shown in the <<Sprint2Results>> table. Similar to the previous table, it shows if a client was able to interact with the server provider. In addition, it was also captured by shading the cells green if the client was able to successfully perform all the tests with a particular source.
+
+[[Sprint2Results]]
+image::images/7-results-503ea.png[title="Sprint 2 Results"]
 
 
-=== Selected Screenshots
-Following are some examples provided by the participants:
+=== Selected screenshots
+In the following figures are some examples provided by the participants:
 
 image::images/ClientA-gpk-apollo-raster-Q1.jpg[title="Full extent raster data from GeoPackage with Client A and GeoPackage Vector Apollo"]
 

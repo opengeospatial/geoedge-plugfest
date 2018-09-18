@@ -1,31 +1,40 @@
 [[GeoPackage]]
-=== GeoPackage Results
+=== GeoPackage results
 
 ==== Raster and vector data in one file
 
-The GeoPackage standard and NSG profile permit a user to include both raster and vector data in the same file. One provider combined the GGDM vector data with a patch of imagery at a higher resolution than the supplied Sentinel 2A data and also added an elevation raster dataset. Although their demo exceeded the scope of the prescribed tests, it highlighted the potential for doing useful raster/vector mashups within NSG profile guidelines. This screenshot shows the edge of the imagery patch overlaid on a public basemap. 
+The GeoPackage standard and NSG profile permit a user to include both raster and vector data in the same file. One provider combined the GGDM vector data with a patch of imagery at a higher resolution than the supplied Sentinel 2A data and also added an elevation raster dataset. Although their demo exceeded the scope of the prescribed tests, it highlighted the potential for doing useful raster/vector mashups within NSG profile guidelines. This screenshot shows the edge of the imagery patch overlaid on a public basemap.
 
-image::images/geop-raster-vector-cut.png[alt]
-
-
+image::images/geop-raster-vector-cut.png[title="GeoPackage with both vector and raster data"]
 
 
-==== Sort Attributes in SQLite schema
-Sort attributes alphabetically in the SQLite schema. If not, it is hard to find attributes in user interfaces to select features to filter.
+==== Sort attributes in the SQLite schema
+When users are interacting with clients and users are not experts in the data, it might be useful that the schema is presented in a more useful way.
+Sorting attributes alphabetically in the SQLite schema will allow to easier find attributes in user interfaces when selecting features to filter.
 
 Related issues:
 
 * https://github.com/opengeospatial/geoedge-plugfest/issues/21
 
 ==== Remove local links
-If GeoPackage files contain links to data producer local file system, some data (e.g styles) might not be accessible.
+If GeoPackage files contain links to data producer local file system, some data (e.g styles) might not be accessible. In the testing, at least one client saw significant slowing in the opening and displaying of the data because of these links.
+
+A client reported:
+
+[source]
+----
+
+Selecting all layers caused QGIS 2.18 to show pinwheel of death for 15 minutes. Data loaded when selected only the 9 feature tables included in the test, excluding other feature tables and all style and attribute tables.
+
+Since test does not require styled features it might be useful to omit style tables from schema, as they account for most of its size and complexity.
+----
 
 Related issues:
 
 * https://github.com/opengeospatial/geoedge-plugfest/issues/22
 * https://github.com/opengeospatial/geoedge-plugfest/issues/71
 
-==== Investigate further GDAL Validation issues
+==== Investigate further GDAL validation issues
 
 Several GDAL validation issues were reported that require further investigation with GDAL developers:
 
@@ -41,20 +50,16 @@ Some files >600 MB were slower to load. Need to investigate further the raw caus
 
 Two files in Sprint 1 with raster data were 1 GB and 5 GB. Raster queries were easy to perform.
 
-Related issues:
-
-* https://github.com/opengeospatial/geoedge-plugfest/issues/22
+Related issues: https://github.com/opengeospatial/geoedge-plugfest/issues/22
 
 ==== Investigate further transparency
 Some clients reported apparent transparency in raster layers.
 
-Related issues:
-
-* https://github.com/opengeospatial/geoedge-plugfest/issues/82
+Related issue: https://github.com/opengeospatial/geoedge-plugfest/issues/82
 
 
 ==== Mashups containing raster elevation data
 
-Various clients were able to open the file containing both raster and vector data. The GeoPackage contained high resolution images and elevation data in the 2D gridded coverage extension schema. Tile-based, pyramidal, floating-point raster data is a distinguishing feature of GeoPackage.
+All the clients were able to open the file containing both raster and vector data. The GeoPackage contained high resolution images and elevation data in the 2D gridded coverage extension schema. Tile-based, pyramidal, floating-point raster data is a distinguishing feature of GeoPackage.
 
-image::images/gpk-hr-elev.png[]
+image::images/gpk-hr-elev.png[title="GeoPackage with high resolution and elevation data"]

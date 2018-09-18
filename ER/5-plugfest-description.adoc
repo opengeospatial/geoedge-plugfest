@@ -1,9 +1,9 @@
 [[PlugfestDescription]]
-== Plugfest Description
+== Plugfest description
 
 === Goal
 
-The goal of the Plugfest was to increase interoperability of information system using community profiles. The Plugfest assisted on tool enhancement and provided guidance to improve the delivery of enterprise geospatial data to end users.
+The goal of the Plugfest was to increase interoperability of information systems using community profiles. The Plugfest assisted on tool enhancement and provided guidance to improve the delivery of enterprise geospatial data to end users.
 
 === Profiles
 
@@ -15,7 +15,7 @@ The profiles used in the initiative were:
 - NSG WFS 1.0 (vector data), based on the OGC WFS 2.0 standard: https://nsgreg.nga.mil/doc/view?i=4388&month=11&day=17&year=2017
 
 
-=== Plugfest Participation Roles
+=== Plugfest participation roles
 
 The participants in the Plugfest took the following roles:
 
@@ -25,7 +25,7 @@ The participants in the Plugfest took the following roles:
 
 === Sprints
 
-Sprints happened virtually allowing participants around the world to participate and to minimize costs related to travel. Each sprint lasted for 1 week. During the sprint week participants were available to respond to inquires posted by other participants. In the sprint time clients performed a set of operations following a scenario and documented their success and failures.
+Sprints happened virtually allowing participants around the world to participate and to minimize costs related to travel. Each sprint lasted for 1 week. During the sprint week participants were available to respond to inquiries posted by other participants. In the sprint time clients performed a set of operations following a scenario and documented their success and failures.
 
 Two sprints were planned on this Plugfest.
 
@@ -52,11 +52,12 @@ Two sprints were planned on this Plugfest.
 === Data
 
 Two types of data, based on NSG Profiles, were used in the initiative:
+
 - *Vector data*  used to create, publish and ingest GeoPackage files as well as to publish to and ingest data from WFS servers.
 - *Raster data* used to exercise WMS and WMTS servers.
 
-==== Vector Data
-Vector data used in the Plugfest was based on the Ground-Warfighter Geospatial Data Model (GGDM 3.0), which is based on the [NSG Application Schema (NAS) version 7](https://nsgreg.nga.mil/doc/view?i=81104&month=2&day=9&year=2016). Various files were created following this model to be used by participants to create GeoPackage or vector files to be served via a WFS.
+==== Vector data
+Vector data used in the Plugfest was based on the Ground-Warfighter Geospatial Data Model (GGDM 3.0), which is based on the https://nsgreg.nga.mil/doc/view?i=81104&month=2&day=9&year=2016[NSG Application Schema (NAS) version 7]. Various files were created using the GGDM 3.0 schema, which were used by participants to create GeoPackages or vector files that were served via a WFS.
 
 The NAS Model Entity Catalog provides a set of features, attributes and enumeration values to be used when encoding vector information. It was provided as an https://portal.opengeospatial.org/files/?artifact_id=77705[Excel File]. It was used by participants to understand better the feature types (semantics) of the data.
 
@@ -70,7 +71,7 @@ The data region was based on Puerto Rico. The datasets contained the following l
 The Data was available for download in the following formats:
 
 * https://portal.opengeospatial.org/files/?artifact_id=77716[GML]
-* Composite ArcGIS (10.1+) https://portal.opengeospatial.org/files/?artifact_id=77715[File Geodatabase] in flattened mode with feature datasets and with no subtypes.
+* Composite ArcGIS (10.1+) https://portal.opengeospatial.org/files/?artifact_id=77715[File Geodatabase] in flattened mode with feature datasets and with no subtypes
 * https://portal.opengeospatial.org/files/?artifact_id=77717[JSON]
 * https://portal.opengeospatial.org/files/?artifact_id=77718[GeoJSON]
 * https://portal.opengeospatial.org/files/?artifact_id=77719[CSV]
@@ -112,13 +113,13 @@ The list of features types contained in the source files was as follows:
 * WATER_AERODROME_P
 * WATER_WELL_P
 
-==== Raster Data
+==== Raster data
 
 The raster data was based on the https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/overview[Sentinel 2A Multispectral Instrument (MSI)], made available by the European Space Agency (ESA) within the Global Monitoring for Environment and Security (GMES) programme. The true color composites (red, green, blue) from the orthorectified Level-lC products were used to generate map data for WMS, WMTS, and GeoPackage files.
 
 The Sentinel data are freely available through the https://scihub.copernicus.eu[Copernicus Open Access Hub]. The data used in the Plugfest corresponded to the region of Puerto Rico and the True Color Image (TCI).
 
-The Table below lists the subset Product ID's from the Sentinal 2A mission that were used by the data providers. From each image set, the `*TCI.jp2` image was used to create the output products. Participants used the [Copernicus Hub recommend API script](https://scihub.copernicus.eu/twiki/do/view/SciHubUserGuide/5APIsAndBatchScripting#Download_full_product_from_its_U) to download each dataset.
+The Table below lists the subset Product ID's from the Sentinal 2A mission that were used by the data providers. From each image set, the `*TCI.jp2` image was used to create the output products. Participants used the https://scihub.copernicus.eu/twiki/do/view/SciHubUserGuide/5APIsAndBatchScripting#Download_full_product_from_its_U[Copernicus Hub recommend API script] to download each dataset.
 
 
 .Sentinel 2 Product IDs
@@ -134,11 +135,15 @@ The Table below lists the subset Product ID's from the Sentinal 2A mission that 
 |===
 
 After setting up an account, the  unique id can be plugged in the URL string to form the link for download. For example:
+
+[source]
+----
 https://scihub.copernicus.eu/dhus/odata/v1/Products('a6a9d67d-fbd5-47be-b5c7-92d680b5028b')/$value
+----
 
 After downloading the data the participants were responsible for the merge and tiling of this imagery data as per the NSG specifications for raster data.
 
-=== Data Consumer Testing Reports during Sprints
+=== Data consumer testing reports during sprints
 
 ==== Organizations acting as clients/users
 
@@ -154,7 +159,7 @@ The following organizations acted as clients/users of the Plugfest.
 - Naval Research Laboratory
 - VATC
 
-==== Data, Services and Templates
+==== Data, services and templates
 
 The Data and Services were provided by:
 
@@ -167,7 +172,7 @@ The Data and Services were provided by:
 - NRL
 - VATC
 
-The name of the sources were anonymized. The links and templates used in Sprint 1 are detailed in the table bellow.
+The name of the sources were anonymized. The links and templates used in Sprint 1 are detailed in the table below.
 
 [width="100%"]
 [cols="20%,30%,50%"]
@@ -183,7 +188,7 @@ The name of the sources were anonymized. The links and templates used in Sprint 
 | WMTS | http://mdms1-devel1.compusult.net//wes/GeopackageWMTS/258/1.0.0/WMTSCapabilities.xml[WMTS_Oberon] | https://portal.opengeospatial.org/files/?artifact_id=[GeoEdgePlugfest-S1-WMTS-sourceName-orgName]
 |====
 
-The links and templates used in Sprint 2 are detailed in the table bellow.
+The links and templates used in Sprint 2 are detailed in the table below.
 
 [width="100%"]
 [cols="40%,60%"]
@@ -212,20 +217,20 @@ The links and templates used in Sprint 2 are detailed in the table bellow.
 
 ==== Communications
 
-If there were any issues with any test, the questions were logged to the https://github.com/opengeospatial/geoedge-Plugfest/issues[issue tracker]. Participants were encouraged to https://help.github.com/articles/watching-and-unwatching-repositories/#watching-a-single-repository[watch] the repository during the sprint so they were notified and  able to provide comments if a question from another participant came up.
+If there were any issues with a test, the questions were logged to the https://github.com/opengeospatial/geoedge-Plugfest/issues[issue tracker]. Participants were encouraged to https://help.github.com/articles/watching-and-unwatching-repositories/#watching-a-single-repository[watch] the repository during the sprint so they were notified and  able to provide comments if a question from another participant came up.
 
 === Templates
 
 Each user (client) had to test a data or server and then answer a set of questions. The questions for the vector and raster sources are summarized in this section.
 
-==== Vector Questions
+==== Vector questions
 ===== Inland water body query
 Find all inland water bodies where the full name starts with 'Lago’ and the highest elevation is greater than 70.
 
 ===== Reservoir query
 Find all inland water bodies where the inland water type is reservoir and the area is greater than 0.046.
 
-===== Traill Number query
+===== Trail Number query
 Provide the full names of all trails that have specified domain value attribute containing the string subset: TraillNumber:T300.
 
 ===== Linear Rivers query
@@ -251,16 +256,16 @@ Find the ICAO Location Indicator for the heliport located at the Bayamon Rgnl Ho
 ===== Subdivision query
 Find the administrative subdivision that contains the building “Cuerpo de Bomberos de Orocovis”. What is the name? Provide a screenshot?
 
-==== Raster Questions
+==== Raster questions
 
 Provide screenshot for the zooms (and scales) specified.
 
-Note: In the below requests, the center point of a designated area is identified. The participant should go to the center point and then zoom to the designated scale and take a screen capture of the resulting image. The screen capture should be bigger (contain) the image returned to ensure that we will be able to compare images returned by different clients.
+Note: In the below requests, the center point of a designated area is identified. The participant should go to the center point and then zoom to the designated scale and take a screen capture of the resulting image. The screen capture should be bigger (contain) than the image returned to ensure that we will be able to compare images returned by different clients.
 
 ===== Zoom to full extent of the layer
 
 ===== Scale: 1:500,000
-_The extent of the image returned should be centered on the centroid of Puerto Rico, which is approximately this location: EPSG 4326: - 66.66, 18.20 and then zoom to the 1:500,000 scale. If the designated scale is not available, zoom to the closest scale that is available and include that information along with the image.._
+_The extent of the image returned should be centered on the centroid of Puerto Rico, which is approximately this location: EPSG 4326: - 66.66, 18.20 and then zoom to the 1:500,000 scale. If the designated scale is not available, zoom to the closest scale that is available and include that information along with the image._
 
 ===== Scale: 1:20,000
 _The extent of the image returned should be centered on the centroid of Puerto Rico, which is approximately this location: EPSG 4326: - 66.66, 18.20 and then zoom to the 1:20,000 scale. If the designated scale is not available, zoom to the closest scale that is available and include that information along with the image._

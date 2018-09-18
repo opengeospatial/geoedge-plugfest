@@ -1,17 +1,18 @@
 [[WMS]]
 === WMS
 
-==== Axis Order
+==== Use both name and title for naming layers
 
-Data providers should treat properly urn:ogc:def:crs:epsg::4326 (or EPSG:4326) depending on the specification they are implementing.  EPSG:4326 AXIS order is YX. Here is the guideline:
+A server didn't use the <Name> element to name the layer. Clients were not able to do GetMap request. The WMS 1.3 Specification states the role of <Title> and <Name>:
 
-* OGC WMS 1.1.1 mandates XY - ordering
-* OGC WMS 1.3 mandates official axis ordering. If EPSG:4326 is being used the axis order should be YX
+[source]
+----
+7.2.4.2 Names and titles
+A number of elements have both a <Name> and a <Title>. The Name is a text string used for machine-to-machine communication while the Title is for the benefit of humans. For example, a dataset might have the descriptive Title “Maximum Atmospheric Temperature” and be requested using the abbreviated Name “ATMAX”.
+----
 
-Related issue:
+Related issues: 
 
-* https://github.com/opengeospatial/geoedge-plugfest/issues/15
-
-==== Naming of Layers
-
-To provide a better client interaction layers should be named properly.
+- https://github.com/opengeospatial/geoedge-plugfest/issues/75
+- https://github.com/opengeospatial/geoedge-plugfest/issues/38
+- https://github.com/opengeospatial/geoedge-plugfest/issues/34

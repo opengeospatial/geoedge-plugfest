@@ -1,9 +1,11 @@
 [[Applications]]
-== Applications and Strategies for Implementers
+== Applications and strategies from implementers
 
-=== FME Raster and Vector Client
+This section provides direct feedback and recommendations from implementers about how to use their tools to interact with NSG profiles data and services.
 
-==== Vector Queries
+=== FME raster and vector client
+
+==== Vector queries
 Vector queries in the FME Client can be performed two ways:
 - interactively using FME Data Inspector as the client alone
 - FME Workbench with a workspace script to automate the process
@@ -12,10 +14,10 @@ image::images/client-fme-data-insp.png[client-fme-data-insp]
 
 image::images/client-fme-ws.png[client-fme-ws]
 
-==== Raster Queries
+==== Raster queries
 When FME is used to read a GeoPackage raster tile dataset, the Data Inspector client optimizes the display by balancing the displayed resolution with the zoom level. Unless a specific zoom level is chosen, FME automatically chooses the highest resolution zoom level that can be displayed at the extents chosen, and then resamples as needed.
 
-=== Esri Raster Tiles Server and GeoPackage
+=== Esri raster tiles server and GeoPackage
 
 1) What were the steps you took to setup the mosaics?
 ArcGIS Desktop was used to Create Mosaic Dataset (Data Management Tools) and to add the images into the dataset. When adding the images the default parameters were kept including the calculation of raster statistics. With the calculation of the statistics the mosaics remain interactive and available to further analysis.
@@ -36,17 +38,17 @@ Esri stated that setting up the raster and vector GeoPackages, the WMS, WMTS, an
 
 ==== Introduction
 
-During this experiment two services where provided: WFS and WMTS, both based on the correspondent NSG profiles. The two services where make available with a single GeoServer instance and the necessary GeoServer NSG plugins, providing a different end-point for each service, i.e.  http://cloudsdi.geo-solutions.it/geoserver/geoedge/ows?service=wfs&version=2.0.1&request=GetCapabilities[WFS] and http://cloudsdi.geo-solutions.it/geoserver/geoedge/gwc/service/wmts?SERVICE=WMTS&REQUEST=GetCapabilities[WMTS].
+During this experiment two services where provided: WFS and WMTS, both based on the correspondent NSG profiles. The two services were made available with a single GeoServer instance and the necessary GeoServer NSG plugins, providing a different end-point for each service, i.e.  http://cloudsdi.geo-solutions.it/geoserver/geoedge/ows?service=wfs&version=2.0.1&request=GetCapabilities[WFS] and http://cloudsdi.geo-solutions.it/geoserver/geoedge/gwc/service/wmts?SERVICE=WMTS&REQUEST=GetCapabilities[WMTS].
 
 
-The provided vector and raster https://github.com/opengeospatial/geoedge-plugfest/wiki/Data[data] was also configured in the server. Vector data was stored in a PostgreSQL database, the database schema was adapted to support the NSG versioning needs. Auxiliary world files (.wld) where created for the raster data and directly stored on the file system and served through image mosaic GeoServer [​http://docs.geoserver.org/latest/en/user/data/raster/imagemosaic/index.html]extension.
+The provided vector and raster https://github.com/opengeospatial/geoedge-plugfest/wiki/Data[data] was also configured in the server. Vector data was stored in a PostgreSQL database in the server. The database schema was adapted to support the NSG versioning needs. Auxiliary world files (.wld) where created for the raster data and directly stored on the file system and served through image mosaic  http://docs.geoserver.org/latest/en/user/data/raster/imagemosaic/index.html[GeoServer extension].
 Clients tests feedback and the follow up was done with the support of GitHub issues. The provided WFS and WMTS services where respectively tagged as https://github.com/opengeospatial/geoedge-plugfest/labels/%40WFS_Neptune[WFS_NEPTUNE] and
 https://github.com/opengeospatial/geoedge-plugfest/labels/%40WMTS_Calypso[WMTS_CALYPSO].
 A total of six issues where reported for the WFS service and three issues for the WMTS service (in both sprints).
 
-==== Data and Services Setup
+==== Data and services setup
 1) What were the steps you took to setup the mosaics?
-The raster data was published using GeoServer image mosaic http://docs.geoserver.org/latest/en/user/data/raster/imagemosaic/index.html[extension], which allow to publish a mosaic from a number of georeferenced rasters. An auxiliary world file (.wld) was created for each granule, and then an image mosaic datastore pointing to the granules directory was created in http://docs.geoserver.org/latest/en/user/data/raster/imagemosaic/tutorial.html[GeoServer].
+The raster data was published using GeoServer image mosaic http://docs.geoserver.org/latest/en/user/data/raster/imagemosaic/index.html[extension], which allows the user to publish a mosaic from a number of georeferenced rasters. An auxiliary world file (.wld) was created for each granule, and then an image mosaic datastore pointing to the granules directory was created in http://docs.geoserver.org/latest/en/user/data/raster/imagemosaic/tutorial.html[GeoServer].
 
 2) How did you determine and process the zoom levels?
 The already available image overviews were used as is, image mosaic takes care of matching the correct overview with the requested zoom level.
@@ -58,6 +60,6 @@ Tool ​ogr2ogr w​as used to insert the provided vector data into the PostgreS
 The raster files were already optimized, e.g. tiled, compressed and with overviews (zoom levels). For vector data, an index was created for each primary key column of each dataset.
 
 4) Any other feedback about setting the data or services?
-GeoServer NSG extensions \ plugins (one for WFS and another one for WMTS) need to be http://docs.geoserver.org/stable/en/user/community/nsg-profile/index.html[installed].
+GeoServer NSG extensions and plugins (one for WFS and another one for WMTS) need to be http://docs.geoserver.org/stable/en/user/community/nsg-profile/index.html[installed].
 
 When configuring the tile matrix sets for a certain layer, special care should be taken to select only tile matrix sets that make sense for the layer. By default all the tile matrix sets defined by the WMTS NSG profile were available.
