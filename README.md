@@ -1,12 +1,9 @@
 ## Readme
 
-This repository contains the work performed during the **Geospatial to the Edge Interoperability Plugfest**  March-August 2018.
+This repository served as the collaboration space for the the **[Geospatial to the Edge Interoperability Plugfest]http://www.opengeospatial.org/projects/initiatives/geoedgeplugfest** occurred in March-September 2018.
 
-More information in the [wiki](https://github.com/opengeospatial/geoedge-plugfest/wiki). 
+More information in the [wiki](https://github.com/opengeospatial/geoedge-plugfest/wiki).
 
-Results of the Sprint 1 are available [here](https://github.com/opengeospatial/geoedge-plugfest/wiki)
+Report in PDF is available in [this link]https://github.com/opengeospatial/geoedge-plugfest/blob/master/ER/build/er.pdf.
 
-Issues captured the feedback and issues from participants.
-
-The code contains the Engineering Report written in AsciiDoc.
-
+Raw text report written in [AsciiDoc]http://asciidoc.org is available in the [code section] https://github.com/opengeospatial/geoedge-plugfest/tree/master/ER.
