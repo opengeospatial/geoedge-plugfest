@@ -1,0 +1,9 @@
+## Readme
+
+This repository served as the collaboration space for the the **http://www.opengeospatial.org/projects/initiatives/geoedgeplugfest[Geospatial to the Edge Interoperability Plugfest]** occurred in March-September 2018.
+
+More information in the https://github.com/opengeospatial/geoedge-plugfest/wiki[wiki].
+
+Report in PDF is available in https://github.com/opengeospatial/geoedge-plugfest/blob/master/ER/build/er.pdf[this link].
+
+Raw text report written in http://asciidoc.org[AsciiDoc] is available in the https://github.com/opengeospatial/geoedge-plugfest/tree/master/ER[code section] .
