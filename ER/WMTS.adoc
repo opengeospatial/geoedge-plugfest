@@ -5,4 +5,4 @@
 
 Service providers should verify that the GetCapabilities document validates against the XML Schema.
 
-Related issue: https://github.com/opengeospatial/geoedge-plugfest/issues/67
+Related issue: https://github.com/opengeospatial/geoedge-plugfest/issues/67[#67 - The GetCapabilities response from the Pluto WMTS is not valid against the WMTS XML Schema]

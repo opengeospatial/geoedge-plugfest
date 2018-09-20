@@ -4,7 +4,7 @@
 === GeoSolutions
 In a distributed initiative like this one, the ability to provide the necessary feedback, in a concise and straightforward way, and make the discussion happen between all the interested parts is fundamental. It is also important to be able to keep track of what happened and be able to get a quick status overview, e.g. show me all the issues related with WFS.
 
-In our point of view, GitHub issues was a good choice for this. The simple UI (not simpler) make GitHub issues easy to use by both technical and non-technical people. The labels mechanism provide a good way of managing the issues and the discussion mechanism (with the associated notifications mechanism) is very efficient to use. When creating an issue we have the ability to assigning it to the interested persons, then GitHub will take care of notifying those persons, making them aware of that issue.
+GitHub issues was a good choice for this. The simple UI (not simpler) make GitHub issues easy to use by both technical and non-technical people. The labels mechanism provide a good way of managing the issues and the discussion mechanism (with the associated notifications mechanism) is very efficient to use. When creating an issue and assigning it to the interested persons, GitHub will take care of notifying those persons, making them aware of that issue.
 
 In an ideal world, everyone involved with the created issue should be able to reproduce it in their own environment (debuggable environment), unfortunately this is usually not the case. People work on different environments, they don’t have access to the same clients or servers, etc. This means that special care should be taken when describing an issue.
 

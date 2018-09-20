@@ -2,11 +2,12 @@
 [[RevisionHistory]]
 == Revision history
 
-[width="100%",options="header",cols="1,1,1,1,4"]
+[width="100%",options="header",cols="1,2,1,1,4"]
 |====================
 |Date |Editor |Release | Primary clauses modified |Descriptions
 |Aug 10 2018 |L. Bermudez| .1 |all |Initial version
 |Sep 6 2018 |L. Bermudez| .2 |all |Added section test issues, applications and initiative feedback and Plugfest description. Formatted document with better numbering.
 |Sep 8 2018 |L. Bermudez| .3 |all |Reviewed all the document, cleaned name of organizations acting as servers or clients, and added summary matrices of the sprints.
 |Sep 18 2018 |L. Bermudez| .4 |all |Incorporated comments and edits from Melissa Pham, Amy Youmans and Pull request 97-102.
+|Sep 20 2018 |L. Bermudez| .5 |all |Incorporated comments from Matt Sorenson and Annette Filer.
 |====================

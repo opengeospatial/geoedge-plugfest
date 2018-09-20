@@ -32,35 +32,56 @@ The test results of Plugfest identified several bugs or shortcomings in the test
 *** Merge #65: Adding a test case with a file with a space in it
 
 
-=== Reported test issues in Sprint 1
-The following GitHub  issues were created or confirmed during analysis of Sprint 1 results:
+===  Issues and Pull Requests of Executable Test Suites and Specifications
 
-* GeoPackage 1.2 NSG test suite
-** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/10
-** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/28
-** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/31
-** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/27
-** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/30
-* GeoPackage 1.2  test suite
-** https://github.com/opengeospatial/ets-gpkg12/issues/78
-** https://github.com/opengeospatial/ets-gpkg12/issues/74
-* WMS 1.3 NSG test suite
-** https://github.com/opengeospatial/ets-wms13-nsg/issues/5
-** https://github.com/opengeospatial/ets-wms13-nsg/issues/16
+* GeoPackage Specification
+** https://github.com/opengeospatial/geopackage/issues/445[Requirement 32/Req 32 Test Clarification Needed]
+** https://github.com/opengeospatial/geopackage/issues/444[Requirement 13 Information Incomplete / Test Incomplete]
+** https://github.com/opengeospatial/geopackage/issues/443[Test needed for feature instance geometry within feature extents]
+** https://github.com/opengeospatial/geopackage/issues/442[Requirement 78 removed but needs to be restated and included]
+** https://github.com/opengeospatial/geopackage/issues/438[Req 78 equality expectation]
+** https://github.com/opengeospatial/geopackage/issues/437[Req 67 and extensions]
+** https://github.com/opengeospatial/geopackage/issues/436[Terminology in specification GEOMCOLLECTION]
+  * https://github.com/opengeospatial/geopackage/issues/462[Naming conventions for tables, columns]
 
+* GeoPackage 1.2 Test Suite
+** https://github.com/opengeospatial/ets-gpkg12/pull/62[Pull Request - Feature tests handling almost all of the geometry blob information]
+** https://github.com/opengeospatial/ets-gpkg12/pull/84[Pull Request - Corrections in support of passing Fortify tests]
+** https://github.com/opengeospatial/ets-gpkg12/issues/57[RTreeIndex Tests Failure]
+** https://github.com/opengeospatial/ets-gpkg12/issues/60[The spatial issue revisited]
+** https://github.com/opengeospatial/ets-gpkg12/issues/61[Performance when visiting all feature instances]
+** https://github.com/opengeospatial/ets-gpkg12/issues/64[Failure due to space in filename]
+** https://github.com/opengeospatial/ets-gpkg12/issues/74[Testing of large files takes a long time]
+** https://github.com/opengeospatial/ets-gpkg12/issues/78[No requirement can be found for test "feature S R Sconsistency"]
+** https://github.com/opengeospatial/ets-gpkg12/issues/83[Fortify Scan Issues]
 
-=== Reported tests issues in Sprint 2
+* GeoPackage 1.2 NSG Test Suite
+** https://github.com/opengeospatial/ets-gpkg12-nsg/pull/24[Pull Request - Remove NSG 19B Features Extents Tests and Other Issues]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/pull/40[Pull Request - Issue #38: Corrects fortify scan issues; Issue #36 and #37 Table Presence check before test]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/10[No Such Function: ST_MinX]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/27[Improve exception message of test dataValidity_gpkg_spatial_ref_sys ]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/28[Remove duplicated test inherited from ets-gpkg12]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/30[Test metadataSchemaValidation fails if table gpkg_metadata contains multiple values with at least one not NMIS valid entry]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/31[Test dataValidity_gpkg_contents fails with "ResultSet closed"]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/34[CRS Tests done via string comparison]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/35[CRSdefinitions test fails due to dependency issue]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/36[Lack of metadata results in SQLITE ERROR hard failure ]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/37[Geopackage having no Tile data results in SQLITE ERROR]
+** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/38[Fortify scan reports issues]
 
-The following GitHub  issues were created or confirmed during analysis of Sprint 2 results:
+* WMS 1.3 NSG Test Suite
+** https://github.com/opengeospatial/ets-wms13-nsg/issues/5[Integrate execution of ETS WMS 1.3]
+** https://github.com/opengeospatial/ets-wms13-nsg/issues/16[Tests "wms Get Feature Info Feature Count With Value Of One/Ten" cannot handle non GML responses]
 
-* GeoPackage 1.2 NSG test suite
-** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/27
-** https://github.com/opengeospatial/ets-gpkg12-nsg/issues/30
-* WMS 1.3 NSG test suite
-** https://github.com/opengeospatial/ets-wms13-nsg/issues/5
-** https://github.com/opengeospatial/ets-wms13-nsg/issues/16
-* WMTS 1.0 NSG test suite
-** https://github.com/opengeospatial/ets-wmts10-nsg/issues/43
-* WFS 2.0 (NSG) test suite
-** https://github.com/opengeospatial/ets-wfs20/issues/124
-** https://github.com/opengeospatial/ets-wfs20/issues/125
+* WMTS 1.0 NSG Test Suite
+** https://github.com/opengeospatial/ets-wmts10-nsg/issues/43[Test GetTileParametersKvp.wmtsGetTileRequestFormatParameters fails cause the RESTful URL is used]
+
+* WFS 2.0 (NSG) Test Suite
+** https://github.com/opengeospatial/ets-wfs20/issues/124[Locking tests are executed altthougth locking is not supported]
+** https://github.com/opengeospatial/ets-wfs20/issues/125[Test intersectsCurve fails with TopologyException]
+
+* DGIWG Core test Suite
+** https://github.com/opengeospatial/ets-dgiwg-core/issues/2[Dependency Issue]
+
+* TEAM Engine
+** https://github.com/opengeospatial/teamengine/issues/347[Config.xml required, not present, and not built]

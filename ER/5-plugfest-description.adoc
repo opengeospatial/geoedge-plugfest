@@ -70,11 +70,11 @@ The data region was based on Puerto Rico. The datasets contained the following l
 
 The Data was available for download in the following formats:
 
-* https://portal.opengeospatial.org/files/?artifact_id=77716[GML]
+* https://portal.opengeospatial.org/files/?artifact_id=77716[Geography Markup Language (GML)]
 * Composite ArcGIS (10.1+) https://portal.opengeospatial.org/files/?artifact_id=77715[File Geodatabase] in flattened mode with feature datasets and with no subtypes
-* https://portal.opengeospatial.org/files/?artifact_id=77717[JSON]
+* https://portal.opengeospatial.org/files/?artifact_id=77717[JavaScript Object Notation (JSON)]
 * https://portal.opengeospatial.org/files/?artifact_id=77718[GeoJSON]
-* https://portal.opengeospatial.org/files/?artifact_id=77719[CSV]
+* https://portal.opengeospatial.org/files/?artifact_id=77719[Comma-separated values (CSV)]
 
 The list of features types contained in the source files was as follows:
 
@@ -151,31 +151,31 @@ The following organizations acted as clients/users of the Plugfest.
 
 - AGC-Nett Warrior
 - AGC-Sitaware
-- DCGSA
+- Distributed Common Ground System–Army (DCGSA)
 - Compusult
 - Envitia
 - Esri
 - Image Matters
-- Naval Research Laboratory
-- VATC
+- U.S. Naval Research Laboratory (NRL)
+- Visual Awareness Technology and Consulting (VATC)
 
 ==== Data, services and templates
 
 The Data and Services were provided by:
 
 - AGC-ENFIRE
-- AMRDEC
+- Aviation and Missile Research Development and Engineering Center  (AMRDEC)
 - Compusult
-- DCGSA
+- Distributed Common Ground System–Army (DCGSA)
 - Esri
 - GeoSolutions
-- NRL
-- VATC
+- U.S. Naval Research Laboratory (NRL)
+- Visual Awareness Technology and Consulting (VATC)
 
 The name of the sources were anonymized. The links and templates used in Sprint 1 are detailed in the table below.
 
 [width="100%"]
-[cols="20%,30%,50%"]
+[cols="30%,30%,40%"]
 [options="header"]
 
 |====

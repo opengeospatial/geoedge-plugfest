@@ -88,7 +88,7 @@
 :sectanchors:
 :source-highlighter: coderay
 // set media to output format print or screen for pdf export
-//:media: print
+:media: screen
 :bibtex-file: resources/bibtex-file.bib
 :header_recto_center_content: {title} - {docReference}
 
@@ -126,7 +126,7 @@ include::1-summary.adoc[]
 
 include::2-references.adoc[]
 
-// include::3-terms.adoc[]
+include::3-terms.adoc[]
 
 include::4-overview.adoc[]
 

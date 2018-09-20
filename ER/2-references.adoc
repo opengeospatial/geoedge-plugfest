@@ -1,6 +1,7 @@
 [[references]]
-== References
+== References and abbreviated terms
 
+=== References
 The following normative documents are referenced in this document.
 
 * NSG GeoPackage 2.1 (raster and vector data), based on the OGC GeoPackage 1.1 standard: https://nsgreg.nga.mil/doc/view?i=4379

@@ -14,7 +14,7 @@ Sorting attributes alphabetically in the SQLite schema will allow to easier find
 
 Related issues:
 
-* https://github.com/opengeospatial/geoedge-plugfest/issues/21
+* https://github.com/opengeospatial/geoedge-plugfest/issues/21[#21 - Fields did not populate in sequential/alphabetical order]
 
 ==== Remove local links
 If GeoPackage files contain links to data producer local file system, some data (e.g styles) might not be accessible. In the testing, at least one client saw significant slowing in the opening and displaying of the data because of these links.
@@ -31,8 +31,8 @@ Since test does not require styled features it might be useful to omit style tab
 
 Related issues:
 
-* https://github.com/opengeospatial/geoedge-plugfest/issues/22
-* https://github.com/opengeospatial/geoedge-plugfest/issues/71
+* https://github.com/opengeospatial/geoedge-plugfest/issues/22[#22 - Bigger files load slower]
+* https://github.com/opengeospatial/geoedge-plugfest/issues/71[#71 - Remove local links from GeoPackage file]
 
 ==== Investigate further GDAL validation issues
 
@@ -40,22 +40,22 @@ Several GDAL validation issues were reported that require further investigation 
 
 Related issues:
 
-* https://github.com/opengeospatial/geoedge-plugfest/issues/70
-* https://github.com/opengeospatial/geoedge-plugfest/issues/69
-* https://github.com/opengeospatial/geoedge-plugfest/issues/72
-* https://github.com/opengeospatial/geoedge-plugfest/issues/73
+* https://github.com/opengeospatial/geoedge-plugfest/issues/69[#69 - GDAL Validation of GeoPackage file - Wrong default for definition of gpkg_spatial_ref_sys]
+* https://github.com/opengeospatial/geoedge-plugfest/issues/70[# 70 - GDAL Validation - Unexpected data types ]
+* https://github.com/opengeospatial/geoedge-plugfest/issues/72[#72 - GDAL Validation - Inconsistent values in matrices]
+* https://github.com/opengeospatial/geoedge-plugfest/issues/73[#73 - GDAL Validation - Req 93: Wrong default for metadata of gpkg_metadata]
 
 ==== Investigate further GeoPackage performance
 Some files >600 MB were slower to load. Need to investigate further the raw causes of such behavior.
 
 Two files in Sprint 1 with raster data were 1 GB and 5 GB. Raster queries were easy to perform.
 
-Related issues: https://github.com/opengeospatial/geoedge-plugfest/issues/22
+Related issue: https://github.com/opengeospatial/geoedge-plugfest/issues/22[#22 - Bigger files load slower]
 
 ==== Investigate further transparency
 Some clients reported apparent transparency in raster layers.
 
-Related issue: https://github.com/opengeospatial/geoedge-plugfest/issues/82
+Related issue: https://github.com/opengeospatial/geoedge-plugfest/issues/82[#82 - Apparent transparency on raster layer in Client Z with GeoPackage Raster Apollo]
 
 
 ==== Mashups containing raster elevation data

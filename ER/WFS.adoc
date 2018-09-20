@@ -23,7 +23,7 @@ The snippet code bellow shows an incorrect axis order for Puerto Rico.
 
 ----
 
-Related issue: https://github.com/opengeospatial/geoedge-plugfest/issues/15
+Related issue: https://github.com/opengeospatial/geoedge-plugfest/issues/15[#15 - Incorrect axis order interpretation for urn:ogc:def:crs:epsg::4326 in WFS Janus]
 
 
 ==== Query issues
@@ -38,7 +38,7 @@ The process might involve a 2 step process:
   1. Select the layer
   2. Run a query inside that layer: select * from BUILDING_P WHERE ZI005_FNA="Cuerpo de Bomberos de Orocovis";
 
-image::images/q10-2steps.png[]
+image::images/q10-2steps.png[title="Query 10 Client View"]
 
 Similarly it was reported that it was only possible to query one layer per request (https://github.com/opengeospatial/geoedge-plugfest/issues/52[Issue 52]).
 
@@ -46,12 +46,10 @@ A thin client didn't support attribute querying (https://github.com/opengeospati
 
 Related issues:
 
-- https://github.com/opengeospatial/geoedge-plugfest/issues/88
-- https://github.com/opengeospatial/geoedge-plugfest/issues/52
-- https://github.com/opengeospatial/geoedge-plugfest/issues/85
+- https://github.com/opengeospatial/geoedge-plugfest/issues/52[#52 - Only one layer per request]
+- https://github.com/opengeospatial/geoedge-plugfest/issues/85[#85 - Client H - visual queries for WFS]
+- https://github.com/opengeospatial/geoedge-plugfest/issues/88[#88 - Couldn't execute Query 10 - contains]
 
 ==== Interacting with different versions WFS
 
 Some servers support multiple version of WFS. This server capability enables clients to get the data using the preferred version of a WFS.
-
-//TODO:add information from Client J report  WFS Janus Final

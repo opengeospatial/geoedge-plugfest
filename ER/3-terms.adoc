@@ -1,20 +1,19 @@
-== Terms and definitions
-//TODO maybe add terms like profile and other abbreviations
-
-For the purposes of this report, the definitions specified in Clause 4 of the OWS Common Implementation Standard https://portal.opengeospatial.org/files/?artifact_id=38867&version=2[OGC 06-121r9] shall apply. In addition, the following terms and definitions apply.
-
-* term name
-
- text of the definition
-
-* term name|synonym
-
- text of the definition
-
-
 ===	Abbreviated terms
 
-.NOTE: The abbreviated terms clause gives a list of the abbreviated terms and the symbols necessary for understanding this document. All symbols should be listed in alphabetical order. Some more frequently used abbreviated terms are provided below as examples.
 
-* CFP	Call for Participation
-* NSG ...
+* CSV Comma-separated values
+* DoD United States Department of Defense
+* ESA European Space Agency
+* GEOINT Geospatial Intelligence
+* GGDM Ground-Warfighter Geospatial Data Model
+* GMES Global Monitoring for Environment and Security
+* GML Geography Markup Language
+* IC Intelligence Community
+* JSON JavaScript Object Notation
+* NAS NSG Application Schema
+* NSG National System for Geospatial Intelligence
+* NSGM National System for Geospatial-Intelligence Manual
+* OGC Open Geospatial Consortium
+* WFS Web Feature Service
+* WMS Web Map Service
+* WMTS Web Map Tile Service

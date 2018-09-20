@@ -11,8 +11,8 @@ A server didn't use the <Name> element to name the layer. Clients were not able 
 A number of elements have both a <Name> and a <Title>. The Name is a text string used for machine-to-machine communication while the Title is for the benefit of humans. For example, a dataset might have the descriptive Title “Maximum Atmospheric Temperature” and be requested using the abbreviated Name “ATMAX”.
 ----
 
-Related issues: 
+Related issues:
 
-- https://github.com/opengeospatial/geoedge-plugfest/issues/75
-- https://github.com/opengeospatial/geoedge-plugfest/issues/38
-- https://github.com/opengeospatial/geoedge-plugfest/issues/34
+- https://github.com/opengeospatial/geoedge-plugfest/issues/34[#34 - Client H for WMS Mars came in blank]
+- https://github.com/opengeospatial/geoedge-plugfest/issues/38[#38 - Client H can't open WMS Mars]
+- https://github.com/opengeospatial/geoedge-plugfest/issues/75[#75 - Can't open WMS Mars]
