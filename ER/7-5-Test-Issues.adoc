@@ -1,7 +1,7 @@
 [[TestIssues]]
 == Test suites issues and releases
 
-The test results of Plugfest identified several bugs or shortcomings in the test suites. This section provides a summary of the releases of updated test suites and issues reported as part of this initiative.
+The test results of the Plugfest identified several bugs or shortcomings in the test suites. This section provides a summary of the releases of updated test suites and issues reported as part of this initiative.
 
 === Summary of releases related to the Plugfest
 
