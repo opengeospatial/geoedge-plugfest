@@ -74,7 +74,7 @@
 // *****************************************************************************
 // Editors please do not alter the administrative front matter below.
 // *****************************************************************************
-:publicationDate: YYYY-MM-DD
+:publicationDate: 2019-01-20
 :approvalDate: 2018-11-12
 :referenceURLID: {idDoc}
 :copyrightYear: 2019
